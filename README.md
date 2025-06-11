@@ -185,6 +185,6 @@ cd healthcare-devops-in-a-box
 ## 📬 Support
 
 **DevOps Team:** olawalelasisi@outlook.com  
-**Documentation:** https://confluence.healthcarecompany.com/devops-in-a-box
+**Documentation:** https://confluence.com/devops-in-a-box
 
 ---
