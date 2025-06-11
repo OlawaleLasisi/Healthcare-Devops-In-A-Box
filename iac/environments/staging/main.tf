@@ -1,0 +1,1 @@
+resource "azurerm_resource_group" "staging" {name = "rg-staging" location = "East US"}

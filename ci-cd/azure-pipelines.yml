@@ -1,0 +1,16 @@
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+stages:
+- stage: Deploy
+  jobs:
+  - job: Deploy
+    steps:
+    - checkout: self
+    - script: |
+        terraform -chdir=iac/environments/dev apply -auto-approve
+      displayName: 'Terraform Apply Dev'
